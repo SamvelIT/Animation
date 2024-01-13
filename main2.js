@@ -12,3 +12,15 @@ gsap.to("#container", {
     scrub: 1
   }
 });
+
+
+const loading = document.getElementById('loading');
+const content = document.getElementById('content');
+
+
+setTimeout(() => {
+    gsap.to(loading, {
+        display: 'none', opacity: 0, duration: .5
+    });
+    document.body.classList.remove('body-without-scroll');
+}, 3000)
