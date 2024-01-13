@@ -23,4 +23,4 @@ setTimeout(() => {
         display: 'none', opacity: 0, duration: .5
     });
     document.body.classList.remove('body-without-scroll');
-}, 3000)
+}, 5000)
